@@ -16,13 +16,11 @@ pod 'BaiduBCEPlayerLSS',:git=>'https://github.com/baidubce/bce-player-ios.git'
 ```
 
 ### 接入全功能SDK
-1. 在Podfile的target中添加依赖:
-
+* 在Podfile的target中添加依赖:
 ```ruby
 pod 'BaiduBCEPlayerFull',:git=>'https://github.com/baidubce/bce-player-ios.git'
 ```
-2. 在Podfile结尾加入以下内容:
-
+* 在Podfile结尾加入以下内容:
 ```ruby
 post_install do |installer|
   current_dir = Dir.pwd + "/Pods/BaiduBCEPlayerFull/lib/Full"
