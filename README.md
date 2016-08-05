@@ -30,4 +30,4 @@ post_install do |installer|
 end
 ```
 
-关于SDK的`接口文档`，请移步[百度开放云官网](https://bce.baidu.com/doc/MCT/iOS-Player-SDK.html)
+关于SDK的`接口文档`，请移步[百度开放云官网](https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html)
