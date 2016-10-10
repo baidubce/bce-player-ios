@@ -1,9 +1,9 @@
 # Baidu BCE Player iOS SDK
 
-百度开放云播放器iOS SDK提供Cocoapods支持，分为2种SDK：
+百度云播放器iOS SDK提供Cocoapods支持，分为2种SDK：
 
-* 针对直播场景的精减SDK：BaiduBCEPlayerLSS
-* 全功能的SDK：BaiduBCEPlayerFull
+* BaiduBCEPlayerLSS: 针对直播场景的精减SDK
+* BaiduBCEPlayerFull: 全功能的SDK
 
 开发者可以按需选择。
 
@@ -21,4 +21,4 @@ pod 'BaiduBCEPlayerLSS', "~> 1.0"
 pod 'BaiduBCEPlayerFull', "~> 1.0"
 ```
 
-关于SDK的`接口文档`，请移步[百度开放云官网](https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html)
+关于SDK的`接口文档`，请移步[百度云官网](https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html)
