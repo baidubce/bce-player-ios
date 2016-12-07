@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'BaiduBCEPlayerFull'
-  s.version      = '1.6.3'
+  s.version      = '1.6.3.1'
   s.summary      = 'Baidu BCE iOS Player SDK'
   s.homepage     = 'https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html'
   s.license      = {
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Baidu BCE iOS Player SDK supoort iOS 7.0 and later,
   DESC
   s.author   =   { 'Baidu Cloud Multimedia Team' => 'bce-multimedia@baidu.com' }
-  s.source   =   { :http => 'http://sdk.bce.baidu.com/media-sdk/Baidu-T5Player-SDK-iOS-Full-1.6.3.zip?responseContentDisposition=attachment',:sha1 => "14bb16129a5232c1bc717358868348e53371ee86"}
+  s.source   =   { :http => 'http://sdk.bce.baidu.com/media-sdk/Baidu-T5Player-SDK-iOS-Full-1.6.3.zip?responseContentDisposition=attachment',:sha1 => "056b939a388577341bb3192263ab5e7f3c09ea8d"}
 
   s.prepare_command = <<-CMD
     VERSION="1.6.3"
