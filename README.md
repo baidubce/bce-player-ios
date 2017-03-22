@@ -1,4 +1,4 @@
-# Baidu BCE Player iOS SDK
+# Baidu Cloud Player iOS SDK
 
 百度云播放器iOS SDK提供Cocoapods支持，分为2种SDK：
 
@@ -12,13 +12,13 @@
 ### 接入精减SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSS', "~> 1.0"
+pod 'BaiduBCEPlayerLSS', '~> 2.0.0'
 ```
 
 ### 接入全功能SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFull', "~> 1.0"
+pod 'BaiduBCEPlayerFull', "~> 2.0.0"
 ```
 
 关于SDK的`接口文档`，请移步[百度云官网](https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html)
