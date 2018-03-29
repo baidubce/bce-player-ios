@@ -21,4 +21,4 @@ pod 'BaiduBCEPlayerLSS', '~> 2.0.0'
 pod 'BaiduBCEPlayerFull', "~> 2.0.0"
 ```
 
-关于SDK的`接口文档`，请移步[百度云官网](https://cloud.baidu.com/doc/MCT/iOS-Player-SDK.html)
+关于SDK的`接口文档`，请移步[百度云官网](https://cloud.baidu.com/doc/Downloadcenter/player.html#.E6.92.AD.E6.94.BE.E5.99.A8iOS.20SDK)
