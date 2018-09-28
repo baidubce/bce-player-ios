@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Baidu Cloud iOS Player SDK supoort iOS 7.0 and later,
   DESC
   s.author   =   { 'Baidu Cloud Multimedia Team' => 'bce-multimedia@baidu.com' }
-  s.source   =   { :http => 'http://sdk.bce.baidu.com/media-sdk/Baidu-Cloud-Player-iOS-LSS-2.2.4.zip',:sha1 => "ccd7b3cfee46e9311a047e9549f5168a"}
+  s.source   =   { :http => 'http://sdk.bce.baidu.com/media-sdk/Baidu-Cloud-Player-iOS-LSS-2.2.4.zip',:sha1 => "20e1ae28835c700c9e2574608b59b5873383feb6"}
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
