@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   CMD
 
   s.vendored_libraries = 'vendor/libffmpeg.a'
-  s.vendored_frameworks = 'frameworks/BDCloudMediaUtils.framework', 'frameworks/BDCloudMediaPlayer.framework', 'frameworks/BDCloudMediaDownloader.framework'
-  s.frameworks = 'Foundation', 'UIKit', 'AudioToolbox', 'MobileCoreServices'
+  s.vendored_frameworks = 'frameworks/BDCloudMediaUtils.framework', 'frameworks/BDCloudMediaPlayer.framework', 'frameworks/BDCloudMediaDownloader.framework', 'frameworks/BDCloudMediaSource.framework', 'frameworks/BDCloudMediaSprite.framework'
+  s.frameworks = 'Foundation', 'UIKit', 'AudioToolbox', 'MobileCoreServices', 'GLKit'
   s.dependency 'openssl-ios-bitcode', '~> 1.0.210'
   s.libraries = 'bz2', 'z', 'c++'
 end
