@@ -12,13 +12,13 @@
 ### 接入精减SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSS', '~> 2.2.8'
+pod 'BaiduBCEPlayerLSS', '~> 2.2.9'
 ```
 
 ### 接入全功能SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFull', "~> 2.2.8"
+pod 'BaiduBCEPlayerFull', "~> 2.2.9"
 ```
 
 关于SDK的`接口文档`，请移步[百度云官网](https://cloud.baidu.com/doc/Downloadcenter/player.html#.E6.92.AD.E6.94.BE.E5.99.A8iOS.20SDK)
