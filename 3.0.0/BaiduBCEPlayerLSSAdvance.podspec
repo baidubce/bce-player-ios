@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = 'BaiduBCEPlayerLSS'
+  s.name         = 'BaiduBCEPlayerLSSAdvance'
   s.version      = '3.0.0'
   s.summary      = 'Baidu Cloud iOS Player SDK'
   s.homepage     = 'https://cloud.baidu.com/doc/MCT/s/qjwvz50w7/'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Baidu Cloud iOS Player SDK supoort iOS 9.0 and later,
   DESC
   s.author   =   { 'Baidu Cloud Multimedia Team' => 'bce-multimedia@baidu.com' }
-  s.source   =   { :http => 'https://sdk.bce.baidu.com/media-sdk/Baidu-Cloud-Player-iOS-LSS-3.0.0.zip',:sha1 => "b1c5c5932721766beefe2f3076dbb98cbba48a31"}
+  s.source   =   { :http => 'https://sdk.bce.baidu.com/media-sdk/Baidu-Cloud-Player-iOS-LSS-Advance-3.0.0.zip',:sha1 => "ba19436b8bc045b90f9e89a797fc8b0c3043befb"}
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
 
@@ -28,7 +28,9 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 
   'vendor/libffmpeg.a', 
   'vendor/libssl.a', 
-  'vendor/libcrypto.a'
+  'vendor/libcrypto.a',
+  'vendor/libauthcheck.a',
+  'vendor/libwanosdecoder.a'
    s.vendored_frameworks = 
    'frameworks/BDCloudMediaUtils.framework', 
    'frameworks/BDCloudMediaPlayer.framework', 
@@ -37,7 +39,9 @@ Pod::Spec.new do |s|
    'frameworks/BDCloudMediaSprite.framework', 
    'frameworks/BDCloudMediaAdaptive.framework', 
    'frameworks/BDCloudVRRender.framework', 
+   'frameworks/BDCloudHdrKit.framework', 
+   'frameworks/BaiduRtcPlayerGeneral.framework', 
    'frameworks/BaiduAPMAgent.framework'
-   s.frameworks = 'Foundation', 'UIKit', 'AudioToolbox', 'MobileCoreServices', 'GLKit'
+   s.frameworks = 'Foundation', 'UIKit', 'AudioToolbox', 'MobileCoreServices', 'GLKit', 'CoreVideo', 'OpenGLES'
    s.libraries = 'bz2', 'z', 'c++'
 end
