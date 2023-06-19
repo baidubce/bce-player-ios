@@ -2,11 +2,11 @@
 
 百度智能云播放器 iOS SDK(以下简称“SDK”）是百度智能云推出的 iOS 平台视频播放器软件开发工具包 (SDK)，为 iOS 开发者提供简单、便捷的开发接口，帮助开发者在 iOS 移动设备上实现媒体播放功能。SDK 提供简单、便捷的媒体应用开发能力。
 
-在标准版SDK之外，还提供了高级版SDK，包含有全景声（WANOS）音频格式解码与音效处理、HDR多标准视频解码与渲染、超低延时直播、VR视频播放、智能防挡弹幕、投屏等高级功能，为用户带来更丰富的音视频体验。
+在标准版SDK之外，还提供了高级版SDK，包含有全景声（WANOS）音频格式解码与音效处理、HDR多标准视频解码与渲染、超低延时直播、VR视频播放、智能防挡弹幕、投屏、绿幕抠图等高级功能，为用户带来更丰富的音视频体验。
 
 | 终端类别 | Demo体验 | 下载地址 | API参考 | 帮助文档 |
 | --- | --- | --- | --- | --- |
-| iOS端 |![0jlR.png](https://bce.bdstatic.com/doc/bce-doc/MCT/0jlR_cb99272.png)| [SDK + Demo](https://cloud.baidu.com/doc/Developer/index.html) |  [接口速查](MCT/播放器SDK/iOS播放器/接口速查.md) | [播放器iOS SDK](MCT/播放器SDK/iOS播放器/简介.md) |
+| iOS端 |![0jlR.png](https://bce.bdstatic.com/doc/bce-doc/MCT/0jlR_cb99272.png)| [SDK + Demo](https://cloud.baidu.com/doc/Developer/index.html) |  [接口速查](https://cloud.baidu.com/doc/VideoCreatingSDK/s/Bldy7n5hr) | [播放器iOS SDK](https://cloud.baidu.com/doc/VideoCreatingSDK/s/yldy7iu7u) |
 
 <br>
 
@@ -24,30 +24,30 @@
 #### 接入流媒体标准版SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSS', '~> 3.0.0'
+pod 'BaiduBCEPlayerLSS', '~> 3.6.0'
 ```
 
 #### 接入流媒体高级版SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSSAdvance', '~> 3.0.0'
+pod 'BaiduBCEPlayerLSSAdvance', '~> 3.6.0'
 ```
 
 #### 接入全媒体标准版SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFull', "~> 3.0.0"
+pod 'BaiduBCEPlayerFull', "~> 3.6.0"
 ```
 
 #### 接入全媒体高级版SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFullAdvance', "~> 3.0.0"
+pod 'BaiduBCEPlayerFullAdvance', "~> 3.6.0"
 ```
 
 
 
-关于SDK的`接口文档`，请移步[百度智能云官网](https://cloud.baidu.com/doc/MCT/s/Ejwvz57y6)
+关于SDK的`接口文档`，请移步[百度智能云官网](https://cloud.baidu.com/doc/VideoCreatingSDK/s/yldy7iu7u)
 
 
 ### iOS高级版SDK功能简介
@@ -82,3 +82,6 @@ HDR视频具有高动态范围、宽色域、高位深的特点，可以呈现�
 
 #### 投屏
 在高级版SDK中，提供了DLNA投屏能力，允许用户将手机端的多媒体内容投送到盒子、投影、电视等大屏设备上，并且可以在手机端控制大屏端的媒体播放。
+
+### 绿幕抠图
+在高级版SDK中，提供了高精度、高性能的绿幕抠图能力，可实现对绿色或其他纯色背景的自动识别和抠像，背景可以实时替换为2D视频画面或虚拟3D场景，适用于电商直播、虚拟主播、元宇宙直播等场景。绿幕抠图功能可以配合播放内核使用，也支持作为独立组件单独使用。
