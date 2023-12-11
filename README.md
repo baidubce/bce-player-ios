@@ -24,25 +24,25 @@
 #### 接入流媒体标准版SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSS', '~> 3.7.0'
+pod 'BaiduBCEPlayerLSS', '~> 3.8.0'
 ```
 
 #### 接入流媒体高级版SDK
 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerLSSAdvance', '~> 3.7.0'
+pod 'BaiduBCEPlayerLSSAdvance', '~> 3.8.0'
 ```
 
 #### 接入全媒体标准版SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFull', "~> 3.7.0"
+pod 'BaiduBCEPlayerFull', "~> 3.8.0"
 ```
 
 #### 接入全媒体高级版SDK
 * 在Podfile的target中添加依赖:
 ```ruby
-pod 'BaiduBCEPlayerFullAdvance', "~> 3.7.0"
+pod 'BaiduBCEPlayerFullAdvance', "~> 3.8.0"
 ```
 
 

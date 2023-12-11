@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'BaiduBCEPlayerFull'
-  s.version      = '3.7.0'
+  s.version      = '3.8.0'
   s.summary      = 'Baidu Cloud iOS Player SDK'
   s.homepage     = 'https://cloud.baidu.com/doc/VideoCreatingSDK/s/yldy7iu7u'
   s.license      = {
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Baidu Cloud iOS Player SDK supoort iOS 9.0 and later,
   DESC
   s.author   =   { 'Baidu Cloud Multimedia Team' => 'bce-multimedia@baidu.com' }
-  s.source   =   { :http => 'https://sdk.bce.baidu.com/media-sdk/Baidu-Cloud-Player-iOS-FULL-3.7.0.zip',:sha1 => "4592231b7aa71539848d127cdbd9565ed03831d6"}
+  s.source   =   { :http => 'https://bce.bdstatic.com/p3m/common-service/uploads/PlayeriOSFULL-3.8.0_0ea21ee.zip',:sha1 => "f792a32ac2c33fd0fe27f704243ba9b1f09f8fa4"}
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
 
@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 
    'vendor/libffmpeg.a', 
    'vendor/libssl.a', 
-   'vendor/libcrypto.a'
+   'vendor/libcrypto.a',
+   'vendor/libdav1d.a'  
   s.vendored_frameworks = 
    'frameworks/BDCloudMediaUtils.framework', 
    'frameworks/BDCloudMediaPlayer.framework', 
