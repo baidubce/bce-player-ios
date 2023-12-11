@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'BaiduBCEPlayerFullAdvance'
-  s.version      = '3.6.0'
+  s.version      = '3.7.0'
   s.summary      = 'Baidu Cloud iOS Player SDK'
   s.homepage     = 'https://cloud.baidu.com/doc/VideoCreatingSDK/s/yldy7iu7u'
   s.license      = {
